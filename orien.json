@@ -1,0 +1,11 @@
+{
+  "filename": "./data/n42_e018_1arc_v3.tif",
+  "minLat": 18.475,
+  "maxLat": 18.64,
+  "minLng": 42.478,
+  "maxLng": 42.596,
+
+  "heightScale": 2.25,
+  "chunksCountX": 1,
+  "chunksCountY": 1
+}
