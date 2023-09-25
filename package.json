@@ -1,13 +1,21 @@
 {
-  "name": "dem2stl",
+  "name": "srtm-to-stl",
   "version": "1.0.0",
   "description": "",
+  "keywords": [
+    "SRTM",
+    "STL"
+  ],
+  "homepage": "https://github.com/aparshin/srtm-to-stl",
+  "bugs": "https://github.com/aparshin/srtm-to-stl/issues",
+  "author": {
+    "name": "Alexander Parshin",
+    "email": "parshin.alexander@gmail.com",
+    "url": "https://github.com/aparshin"
+  },
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "scripts": {},
   "license": "ISC",
   "dependencies": {
     "geotiff": "^2.0.7",

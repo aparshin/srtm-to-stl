@@ -139,8 +139,9 @@ function toSTL(data, xDim, yDim, base) {
     `
 }
 
-const config = JSON.parse(readFileSync('orien.json', 'utf8'));
-const centerLng = (config.min_lng + config.max_lng) / 2
+const configFilename = process.argv[2]
+const config = JSON.parse(readFileSync(configFilename, 'utf8'));
+const centerLng = (config.minLng + config.maxLng) / 2
 
 // Y-size in meters of a pixel in SRTM file
 const scaleY = 6357000 * 2 * Math.PI / 360 / 3600
